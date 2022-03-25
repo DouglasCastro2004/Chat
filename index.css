@@ -1,0 +1,265 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #160202;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 35px;
+  height: 580px;
+  max-width: 305px;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 35px;
+  
+  height: 580px;
+  max-width: 305px;
+  background-color: rgb(37 55 70 );
+  border-radius:10px;
+}
+
+
+header {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 305px;
+  height: 39.17px;
+
+
+  
+}
+.container h2 {
+font-size: 22px;
+font-family: Poppins, sans-serif;
+margin-left: 15px;
+}
+
+.container2 h2 {
+  font-size: 22px;
+  font-family: Poppins, sans-serif;
+  margin-left: 15px;
+}
+
+h5 {
+  font-family: Poppins, sans-serif;
+  margin-left: 15px;
+  text-align: center;
+}
+
+
+.msg-container {
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#msg-input {
+  width: 285px;
+  height: 40.14px;
+  position: relative;
+  padding:10px; 
+  border: 1px solid #000;
+  border-radius: 15px;
+  background: #F4F3F2;
+  color: #000;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+
+}
+
+#msg-input2 {
+  width: 285px;
+  height: 40.14px;
+  position: relative;
+  padding:10px; 
+  border: 1px solid #E8E6EA;
+  border-radius: 15px;
+  background: #3D4354;
+  color: #000;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+
+}
+
+#send-msg {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #E8E6EA;
+  background: none;
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 7500;
+  cursor: pointer;
+  transition: filter 0.2s;
+ 
+  
+}   
+
+#send-msg2 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #E8E6EA;
+  background: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: filter 0.2s;
+  position: absolute;
+  right: 25px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 7500;
+  
+}   
+
+#send-msg:hover {
+  
+  background:#E8E6EA;
+  
+}
+
+#send-msg2:hover {
+  
+  background:#E8E6EA;
+  
+}
+
+#messages {
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  margin: top 35px;
+  gap: 50px;
+  top: 130px;
+  margin-left: 18px;
+  max-width:90%;
+  height:75%;
+  background-color: #ffffff;
+  width:100%;
+  overflow: auto;
+}
+
+#messages2 {
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  top: 130px;
+  margin-left: 18px;
+  max-width:90%;
+  height:75%;
+  width:100%;
+  overflow: auto;
+  
+}
+.sendMsg1{
+  display: block;
+  padding: 20px;
+  border: 2px solid #058caa;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  margin: 50PX;
+  width: 200px;
+  height: flex;
+  background-color:#058caa;
+  list-style-type: none;
+
+  
+}
+.sendMsg2{
+  padding: 20px;
+  border: 2px solid #21CCF2;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  margin: 50px;
+  width: 200px;
+  height: flex;
+  background-color: #21CCF2;
+  list-style-type: none;
+  
+}
+
+.recebe{
+  padding: 20px;
+  border: 2px solid #F4F3F2;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  margin: 3px;
+  width: 200px;
+  height: flex;
+  background-color: #F4F3F2;
+  list-style-type: none;
+}
+.recebe2 {
+  padding: 20px;
+  border: 2px solid rgb(153, 157, 160);
+  border-radius: 15px;
+  margin-bottom: 100px;
+  margin: 3px;
+  width: 200px;
+  height: flex;
+  background-color: rgb(153, 157, 160);
+  list-style-type: none;
+}
+
+.container img {
+  float: left;
+  max-width: 50px;
+  width: 50px;
+ /* margin: 0px 10px 0px 0px;*/
+  border-radius: 50%;
+}
+
+.container2 img {
+  float: left;
+  max-width: 40px;
+  width: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.status{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  display:inline-block;
+  margin-right:7px;
+  margin: 0px 7px 0px 10px;
+}
+.green{
+  background-color:#58b666;
+}
